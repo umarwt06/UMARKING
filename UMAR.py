@@ -40,16 +40,6 @@ princp=[]
 import random 
 ugen=[]
 ugen=[]
-for xd in range(2000):
-def clear():
-	os.system('clear')
-def back():
-	login()
-
-ah="MOHAMMAD-"
-imt="-M18876=="
-ak=" UMAR-"
-myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 except:
@@ -57,6 +47,7 @@ except:
 	kok.write(myid+imt)
 	kok.close()
 def login():
+for xd in range(2000):
 	try:
 		token = open('.token.txt','r').read()
 		tokenku.append(token)
@@ -427,7 +418,7 @@ def def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/umarwt06/APPROVAL/blob/main/APPROVAL.txt").text
+	r1=requests.get("https://github.com/MohmmadUmar067/APPROVAL/blob/main/APPROVAL.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -462,5 +453,3 @@ Subscraption()
 	else:
 		os.system('rm -rf EID-SPECIAL-GITF')
 		exit()
-		
-ckk()
