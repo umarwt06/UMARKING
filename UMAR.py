@@ -40,28 +40,7 @@ princp=[]
 import random 
 ugen=[]
 ugen=[]
-try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
-except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
-	kok.write(myid+imt)
-	kok.close()
-def login():
 for xd in range(2000):
-	try:
-		token = open('.token.txt','r').read()
-		tokenku.append(token)
-		try:
-			sy = requests.get('https://graph.facebook.com/me?access_token='+tokenku[0])
-			public_menu()
-		except KeyError:
-			Public()
-		except requests.exceptions.ConnectionError:
-			clear()
-			print(logo)
-			print ( ' [×] Connection Timeout')
-			exit()
-
     aa='Mozilla/5.0 (Windows NT 10.0;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
     c=random.choice(['Windows NT 10.0'])
@@ -109,7 +88,7 @@ for xd in range(2000):
     ugen.append(uaku2)
     
     #Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Vivaldi/5.6.2867.50
-for xd in range(1000):
+    xd in range(1000) 
     aa='Mozilla/5.0 (Windows NT 10.0; Win64; x64;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
     c=random.choice(['Windows NT 10.0; Win64; x64'])
@@ -414,42 +393,13 @@ def crack1(idf,pwv):
 			time.sleep(10)
 	loop+=1
 
-def def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
-	clear()
-	print(logo)
-	r1=requests.get("https://github.com/MohmmadUmar067/APPROVAL/blob/main/APPROVAL.txt").text
-	if key1 in r1:
-		os.system('clear')
-		print(logo)
-		Main()
-	else:
-		os.system("clear")
-		print(logo)
-		print("\t \033[1;32m First Get Approvel\033[1;37m ")
-		time.sleep(1)
-		os.system("clear")
-		print(logo)
-		print ("")
-		print(" \033[1;32m UMAR Toll PAID You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : UMAR PAID HA BHAIYO ENJOY   \033[1;37m")
-		print ("")
-		print(" Your Key is Not Approved ")
-		print("")
-		print(" Copy And Send Key To Admin")
-		print ("")
-		print (" Your Key : "+ak+ah+key1 )
-		print ("")
-		name = input(" Your Name : ")
-		print ("")
-		lol = input(" Your Your Email : ")
-		print ("")
-		input(" Press Enter To Send Key")
-		time.sleep(3.5)
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20ThankYou%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
-		os.system('am start https://wa.me/+923152083002?text=' + tks)
-		Subscraption()        
-Subscraption()
+def ckk():
+	mod = "SaiMu"
+	peo = requests.get('https://apppppappppppappp.blogspot.com/2023/03/file.html').text
+	if mod in peo:
+		File()
 	else:
 		os.system('rm -rf EID-SPECIAL-GITF')
-		exit()
+		exit()	
+		
+ckk()
